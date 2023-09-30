@@ -40,6 +40,7 @@ public class Main {
         label.setBorder(border);
         label.setVerticalAlignment(JLabel.CENTER);
         label.setHorizontalAlignment(JLabel.CENTER);
+//        label.setBounds(100, 100, 250, 250);
 
 
 
@@ -47,8 +48,10 @@ public class Main {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500, 500);
+//        frame.setLayout(null);
         frame.setVisible(true);
         frame.add(label);
+        frame.pack();
 
 
 
